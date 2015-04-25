@@ -1,0 +1,7 @@
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\bin\Debug\ConcurrentTests.dll
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\bin\Debug\ConcurrentTests.pdb
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\bin\Debug\ConcurrentProgramming.exe
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\bin\Debug\ConcurrentProgramming.pdb
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\obj\Debug\ConcurrentTests.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\obj\Debug\ConcurrentTests.dll
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentTests\obj\Debug\ConcurrentTests.pdb
