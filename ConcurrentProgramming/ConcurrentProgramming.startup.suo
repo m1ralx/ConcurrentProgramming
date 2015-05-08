@@ -2,7 +2,8 @@
   "SingleProjectMode": 0,
   "SingleProjectMruCount": 5,
   "MRU": [
-    "ConcurrentProgramming"
+    "ConcurrentProgramming",
+    "ConcurrentTests"
   ],
   "MultiProjectConfigurations": {},
   "ActivateCommandLineArguments": false,

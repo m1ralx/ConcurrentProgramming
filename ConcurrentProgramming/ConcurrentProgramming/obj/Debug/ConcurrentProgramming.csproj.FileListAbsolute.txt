@@ -1,7 +1,6 @@
 C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.exe.config
 C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.exe
 C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.pdb
-C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\obj\Debug\ConcurrentProgramming.csprojResolveAssemblyReference.cache
 C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\obj\Debug\ConcurrentProgramming.exe
 C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\obj\Debug\ConcurrentProgramming.pdb
 C:\Users\Администратор\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.exe.config
@@ -10,3 +9,4 @@ C:\Users\Администратор\Desktop\ConcurrentProgramming\ConcurrentProg
 C:\Users\Администратор\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.exe
 C:\Users\Администратор\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\bin\Debug\ConcurrentProgramming.pdb
 C:\Users\Администратор\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\obj\Debug\ConcurrentProgramming.csprojResolveAssemblyReference.cache
+C:\Users\Alexey\Desktop\ConcurrentProgramming\ConcurrentProgramming\ConcurrentProgramming\obj\Debug\ConcurrentProgramming.csprojResolveAssemblyReference.cache

@@ -1,35 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConcurrentProgramming
 {
-    public class NonSafetyStruct : IStruct
+    public class SafetyStruct : IStruct
     {
+        private readonly object[] lockers;
         private readonly List<string> _strings;
-        public NonSafetyStruct(string[] strings)
+        private object locker;
+        public SafetyStruct(string[] strings)
         {
+            locker = new object();
             _strings = strings.ToList();
+            lockers = Enumerable.Range(0, strings.Length).Select(i => new object()).ToArray();
         }
 
         public Tuple<int, string> ReplaceFirst(string word, string replace)
         {
-            int firstInclusionIndex;
-            try
+            
+            lock(locker)
             {
-                firstInclusionIndex = _strings.IndexOf(_strings.First(str => str.Contains(word)));
+                var firstInclusionIndex = _strings.IndexOf(_strings.First(str => str.Contains(word)));
+                if (firstInclusionIndex < 0)
+                    return null;
                 var indexOfSubstr = _strings[firstInclusionIndex].IndexOf(word);
+                if (indexOfSubstr < 0)
+                    return null;
                 _strings[firstInclusionIndex] = _strings[firstInclusionIndex].Substring(0, indexOfSubstr) + replace +
                                                 _strings[firstInclusionIndex].Substring(indexOfSubstr + word.Length);
+                return Tuple.Create(firstInclusionIndex, _strings[firstInclusionIndex]);  
             }
-            catch
-            {
-                return null;
-            }
-            return Tuple.Create(firstInclusionIndex, _strings[firstInclusionIndex]);
         }
         public string this[int i]
         {
